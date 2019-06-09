@@ -1,0 +1,24 @@
+<ion-header noborder>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content noborder padding>
+  <ion-button (click)="logout()" expand="block">Login</ion-button>
+  <ion-button expand="block" color="secondary" routerLink="/register" routerDirection="forward">Register</ion-button>
+</ion-content>
+
+<ion-header noborder>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="logout()">
+        <ion-icon slot="icon-only" name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>My Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>  
+</ion-content>

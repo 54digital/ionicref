@@ -1,3 +1,4 @@
+import { ConfigComponent } from './config/config.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -9,18 +10,28 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { CookieService } from 'ngx-cookie-service';
+import { HttpClientModule } from '@angular/common/http';
+
+import { HttpClientXsrfModule } from '@angular/common/http';
+import { ConfigService, Config } from './config/config.service';
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ConfigComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    CookieService,
+    ConfigService
   ],
   bootstrap: [AppComponent]
 })
