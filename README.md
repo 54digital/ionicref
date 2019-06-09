@@ -23,3 +23,4 @@ ionic g page public/login
 npm install --save ngx-cookie-service
 ionic g service config/config
 
+ff
