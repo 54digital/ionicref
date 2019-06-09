@@ -12,6 +12,10 @@ https://capacitor.ionicframework.com/
 
 https://www.paradigmadigital.com/dev/stencil-js-crear-web-components-nunca-fue-tan-facil/
 
+https://code.tutsplus.com/tutorials/typescript-for-beginners-part-4-classes--cms-29565
+
+http://respagblog.azurewebsites.net/
+
 
 git init
 git add *
