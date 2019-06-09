@@ -4,6 +4,15 @@ https://ionicthemes.com/tutorials/about/the-complete-guide-to-progressive-web-ap
 
 https://devdactic.com/ionic-4-login-angular/
 
+https://angular.io/guide/http
+
+https://www.nigmacode.com/ionic/Pipes-en-Ionic
+
+https://capacitor.ionicframework.com/
+
+https://www.paradigmadigital.com/dev/stencil-js-crear-web-components-nunca-fue-tan-facil/
+
+
 git init
 git add *
 git status
@@ -23,4 +32,4 @@ ionic g page public/login
 npm install --save ngx-cookie-service
 ionic g service config/config
 
-ff
+
