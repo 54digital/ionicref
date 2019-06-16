@@ -16,6 +16,8 @@ https://code.tutsplus.com/tutorials/typescript-for-beginners-part-4-classes--cms
 
 http://respagblog.azurewebsites.net/
 
+NAMESPACES:
+https://scotch.io/tutorials/3-useful-typescript-tips-for-angular
 
 git init
 git add *
